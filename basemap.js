@@ -1,8 +1,10 @@
 
 
-// Require Vec2
+import { Vec2 } from "mandera-vec2";
 
-class BaseMap {
+console.log(new Vec2(2))
+
+export class BaseMap {
     scrollSpeed = 1;
     minScale = 0.02;
     maxScale = 100;
