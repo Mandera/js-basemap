@@ -7,7 +7,7 @@
         "build": "parcel build index.html"
     },
     "dependencies": {
-        "mandera-vec2": "latest"
+        "genvector": "latest"
     },
     "devDependencies": {
         "parcel": "latest"

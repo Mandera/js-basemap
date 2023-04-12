@@ -1,8 +1,7 @@
 
 
-import { Vec2 } from "mandera-vec2";
+const Vec2 = require("genvector").Vec2;
 
-console.log(new Vec2(2))
 
 export class BaseMap {
     scrollSpeed = 1;
